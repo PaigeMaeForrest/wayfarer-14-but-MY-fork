@@ -60,6 +60,19 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
+  - type: Storage
+    grid:
+    - 0,0,2,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: HelmetAccessoryHolder
+
 
 #SWAT Helmet
 - type: entity
@@ -86,6 +99,8 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
+  - type: HelmetAccessoryHolder
+
 
 #Syndicate SWAT Helmet
 - type: entity
