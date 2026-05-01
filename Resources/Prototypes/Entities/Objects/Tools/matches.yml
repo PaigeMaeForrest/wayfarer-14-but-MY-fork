@@ -115,9 +115,9 @@
     tags:
     - Trash
   - type: SpaceGarbage
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
-      sprite: _WF/Clothing/Helmetaddons/Smoking/matches.rsi
+      sprite: _WF/Clothing/Helmetaddons/Smoking/matches.rsi 
       state: helmet
 
 

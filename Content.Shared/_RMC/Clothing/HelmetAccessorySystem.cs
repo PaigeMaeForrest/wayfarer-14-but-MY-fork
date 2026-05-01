@@ -9,27 +9,27 @@ using Robust.Shared.Containers;
 namespace Content.Shared.Clothing;
 
 
-   public sealed class HelmetAccessoriesSystem : EntitySystem
+   public sealed class HelmetAccessorySystem : EntitySystem
 {
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly SharedItemSystem _item = default!;
     [Dependency] private readonly ItemToggleSystem _itemToggle = default!;
 
     private EntityQuery<StorageComponent> _storageQuery;
-    private EntityQuery<HelmetAccessoriesComponent> _accessoryQuery;
+    private EntityQuery<HelmetAccessoryComponent> _accessoryQuery;
 
-    public override void Initialize()
+    public override void Initialize() //Wayfarer: this all is almost 100% untouched as ported over from RMC
     {
         base.Initialize();
 
         _storageQuery = GetEntityQuery<StorageComponent>();
-        _accessoryQuery = GetEntityQuery<HelmetAccessoriesComponent>();
+        _accessoryQuery = GetEntityQuery<HelmetAccessoryComponent>();
 
         SubscribeLocalEvent<HelmetAccessoryHolderComponent, EntInsertedIntoContainerMessage>(OnEntInserted);
         SubscribeLocalEvent<HelmetAccessoryHolderComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
         SubscribeLocalEvent<HelmetAccessoryHolderComponent, GetEquipmentVisualsEvent>(OnGetEquipmentVisuals, after: [typeof(ClothingSystem)]);
 
-        SubscribeLocalEvent<HelmetAccessoriesComponent, ItemToggledEvent>(OnToggled);
+        SubscribeLocalEvent<HelmetAccessoryComponent, ItemToggledEvent>(OnToggled);
     }
 
     private void OnEntInserted(Entity<HelmetAccessoryHolderComponent> ent, ref EntInsertedIntoContainerMessage args)
@@ -42,7 +42,7 @@ namespace Content.Shared.Clothing;
         _item.VisualsChanged(ent);
     }
 
-    private void OnToggled(Entity<HelmetAccessoriesComponent> ent, ref ItemToggledEvent args)
+    private void OnToggled(Entity<HelmetAccessoryComponent> ent, ref ItemToggledEvent args)
     {
         if (!TryComp(ent, out TransformComponent? xform) ||
             TerminatingOrDeleted(xform.ParentUid))

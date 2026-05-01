@@ -215,7 +215,7 @@
   - type: IgnitionSource
     ignited: false
   - type: Engraveable # Frontier
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/Zippos/zippo.rsi
       state: helmet

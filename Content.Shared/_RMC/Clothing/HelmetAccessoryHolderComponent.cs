@@ -4,7 +4,7 @@ using Robust.Shared.GameStates;
 namespace Content.Shared.Clothing;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-[Access(typeof(HelmetAccessoriesSystem))]
+[Access(typeof(HelmetAccessorySystem))]
 public sealed partial class HelmetAccessoryHolderComponent : Component
 {
     [DataField, AutoNetworkedField]

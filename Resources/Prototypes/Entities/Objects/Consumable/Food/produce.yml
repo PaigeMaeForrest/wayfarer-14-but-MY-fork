@@ -1595,7 +1595,7 @@
     entries:
       Taco: Poppy
       Burger: Poppy
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Plants/poppy.rsi
       state: helmet
@@ -1632,7 +1632,7 @@
     entries:
       Taco: Lily
       Burger: Lily
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Plants/lilly.rsi
       state: helmet

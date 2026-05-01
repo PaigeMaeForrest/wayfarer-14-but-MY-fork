@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadBase
+  parent: [ClothingHeadBase, ClothingHeadHelmetAccessoryHolder]  # Wayfarer: Add ClothingHeadHelmetAccessoryHolder
   id: ClothingHeadHatHardhatBase
   abstract: true
   components:
@@ -62,23 +62,12 @@
     heldPrefix: off
   - type: Tag
     tags:
-    - WhitelistChameleon
-  - type: Storage # here and below is the chunk for accesories :>
-    grid:
-    - 0,0,2,1
-    maxItemSize: Small
-  - type: ContainerContainer
+    - WhitelistChameleon 
+  - type: ContainerContainer # Wayfarer: here and below is the chunk for accesories :>
     containers:
       cell_slot: !type:ContainerSlot
       storagebase: !type:Container
         ents: []
-  - type: UserInterface
-    interfaces:
-      enum.StorageUiKey.Key:
-        type: StorageBoundUserInterface
-  - type: HelmetAccessoryHolder
-
-
 
 - type: entity
   parent: ClothingHeadHatHardhatBase

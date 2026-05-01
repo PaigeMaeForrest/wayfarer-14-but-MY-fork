@@ -144,7 +144,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/green.rsi
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/spessman.rsi
       state: helmet
@@ -160,7 +160,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/red.rsi
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/dromedaryco.rsi
       state: helmet
@@ -176,7 +176,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/blue.rsi
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/acmeco.rsi
       state: helmet
@@ -192,7 +192,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
   - type: Item
     sprite: Objects/Consumable/Smokeables/Cigarettes/Packs/black.rsi
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/nomads.rsi
       state: helmet
@@ -212,7 +212,7 @@
     contents:
     - id: CigaretteSyndicate
       amount: 10
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/interdyne.rsi
       state: helmet
@@ -235,7 +235,7 @@
         rolls: !type:RangeNumberSelector
           range: 2, 9
         tableId: RandomSoakedSmokeTable
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Smoking/CigPacks/dan's.rsi
       state: helmet

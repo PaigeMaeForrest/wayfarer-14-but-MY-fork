@@ -54,7 +54,7 @@
   - type: Construction
     graph: flowerwreath
     node: flowerwreath
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer: couldnt leave the BEST hat out of the helmet stuff
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Plants/flowerwreath.rsi
       state: helmet
@@ -374,7 +374,7 @@
     sprite: Clothing/Head/Misc/hairflower.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/hairflower.rsi
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
       sprite: _WF/Clothing/Helmetaddons/Plants/hairflower.rsi
       state: helmet

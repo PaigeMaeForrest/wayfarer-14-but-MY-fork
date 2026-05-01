@@ -25,9 +25,9 @@
     sprite: _NF/Clothing/Eyes/Glasses/pilot.rsi
   - type: HandheldGPS
   - type: VisionCorrection
-  - type: HelmetAccessories
+  - type: HelmetAccessory
     rsi:
-      sprite: _WF/Clothing/Helmetaddons/Goggles/pilotgoggles.rsi
+      sprite: _WF/Clothing/Helmetaddons/Goggles/pilotgoggles.rsi # Wayfarer :>
       state: helmet
 
 - type: entity
@@ -58,7 +58,7 @@
     price: 250
   - type: VisionCorrection
   - type: ShowJobIcons
-  - type: HelmetAccessories
+  - type: HelmetAccessory # Wayfarer :>
     rsi:
-      sprite: _WF/Clothing/Helmetaddons/Goggles/engigoggles.rsi
+      sprite: _WF/Clothing/Helmetaddons/Goggles/engigoggles.rsi 
       state: helmet
