@@ -548,9 +548,11 @@
     speed: 360
   - type: PowerCellSlot
     cellSlotId: cell_slot
-  - type: ContainerContainer
+  - type: ContainerContainer 
     containers:
       cell_slot: !type:ContainerSlot
+      storagebase: !type:Container # Wayfarer c:
+        ents: []
   - type: ItemSlots
     slots:
       cell_slot:
