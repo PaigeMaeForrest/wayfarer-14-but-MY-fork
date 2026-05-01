@@ -63,10 +63,10 @@
   - type: Tag
     tags:
     - WhitelistChameleon 
-  - type: ContainerContainer # Wayfarer: here and below is the chunk for accesories :>
+  - type: ContainerContainer 
     containers:
       cell_slot: !type:ContainerSlot
-      storagebase: !type:Container
+      storagebase: !type:Container # Wayfarer c:
         ents: []
 
 - type: entity

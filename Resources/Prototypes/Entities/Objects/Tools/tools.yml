@@ -89,7 +89,7 @@
     price: 15 # Frontier 30<15
   - type: HelmetAccessory # Wayfarer :>
     rsi:
-      sprite: _WF/Clothing/Helmetaddons/Tools/screwdriver .rsi
+      sprite: _WF/Clothing/Helmetaddons/Tools/screwdriver.rsi
       state: helmet
 
 - type: entity
