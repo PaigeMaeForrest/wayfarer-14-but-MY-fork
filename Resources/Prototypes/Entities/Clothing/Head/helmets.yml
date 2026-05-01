@@ -26,10 +26,29 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+#Below is the parent that adds shit for helmet accessories
+- type: entity 
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetAccessoryHolder
+  abstract: true
+  components:
+  - type: Storage
+    grid:
+    - 0,0,2,1
+    maxItemSize: Small
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: HelmetAccessoryHolder
 
 #Basic Helmet (Security Helmet)
 - type: entity
-  parent: [ClothingHeadHelmetArmoredBase, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
+  parent: [ClothingHeadHelmetAccessoryHolder, ClothingHeadHelmetArmoredBase, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
   id: ClothingHeadHelmetBasic
   name: helmet
   description: Standard security gear. Protects the head from impacts.
@@ -45,10 +64,24 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
+  - type: Storage
+    grid:
+    - 0,0,2,1
+    maxItemSize: Small
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: HelmetAccessoryHolder
+
 
 #Mercenary Helmet
 - type: entity
-  parent: [ ClothingHeadHelmetArmoredBase, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
+  parent: [ClothingHeadHelmetAccessoryHolder, ClothingHeadHelmetArmoredBase, BaseC1Contraband ] # Frontier: BaseMajorContraband<BaseC1Contraband
   id: ClothingHeadHelmetMercenary # Frontier: Merc<Mercenary
   name: mercenary helmet
   description: The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
@@ -63,6 +96,7 @@
   - type: Storage
     grid:
     - 0,0,2,1
+    maxItemSize: Small
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -76,7 +110,7 @@
 
 #SWAT Helmet
 - type: entity
-  parent: [ClothingHeadHelmetBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [ClothingHeadHelmetAccessoryHolder, ClothingHeadHelmetBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingHeadHelmetSwat
   name: SWAT helmet
   description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
@@ -104,7 +138,7 @@
 
 #Syndicate SWAT Helmet
 - type: entity
-  parent: [BaseC3SyndicateContraband, ClothingHeadHelmetSwat, ContrabandClothing] # Frontier: added ContrabandClothing, BaseC3SyndicateContraband as parent
+  parent: [ClothingHeadHelmetAccessoryHolder, BaseC3SyndicateContraband, ClothingHeadHelmetSwat, ContrabandClothing] # Frontier: added ContrabandClothing, BaseC3SyndicateContraband as parent
   id: ClothingHeadHelmetSwatSyndicate
   name: SWAT helmet
   suffix: Syndicate
@@ -120,7 +154,7 @@
 
 #Light Riot Helmet
 - type: entity
-  parent: [ClothingHeadHelmetBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [ClothingHeadHelmetAccessoryHolder, ClothingHeadHelmetBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingHeadHelmetRiot
   name: light riot helmet
   description: It's a helmet specifically designed to protect against close range attacks.
@@ -360,7 +394,7 @@
 #ERT HELMETS
 #ERT Leader Helmet
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHelmetArmoredBase ]
+  parent: [ClothingHeadHelmetAccessoryHolder, BaseCentcommContraband, ClothingHeadHelmetArmoredBase ]
   id: ClothingHeadHelmetERTLeader
   name: ERT leader helmet
   description: An in-atmosphere helmet worn by the leader of a Nanotrasen Emergency Response Team. Has blue highlights.
@@ -487,7 +521,7 @@
 
 #Justice Helmet
 - type: entity
-  parent: [ ClothingHeadHelmetBasic, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
+  parent: [ ClothingHeadHelmetAccessoryHolder, ClothingHeadHelmetBasic, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: ClothingHeadHelmetJustice
   name: justice helm
   description: Advanced security gear. Protects the station from ne'er-do-wells.

@@ -60,12 +60,25 @@
         startingItem: PowerCellMedium
   - type: Item
     heldPrefix: off
-  - type: ContainerContainer
-    containers:
-      cell_slot: !type:ContainerSlot
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: Storage # here and below is the chunk for accesories :>
+    grid:
+    - 0,0,2,1
+    maxItemSize: Small
+  - type: ContainerContainer
+    containers:
+      cell_slot: !type:ContainerSlot
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: HelmetAccessoryHolder
+
+
 
 - type: entity
   parent: ClothingHeadHatHardhatBase

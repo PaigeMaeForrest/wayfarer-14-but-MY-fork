@@ -117,7 +117,7 @@
   - type: SpaceGarbage
   - type: HelmetAccessories
     rsi:
-      sprite: Resources\Textures\Clothing\Helmetaddons\Smoking\matches.rsi
+      sprite: _WF/Clothing/Helmetaddons/Smoking/matches.rsi
       state: helmet
 
 
