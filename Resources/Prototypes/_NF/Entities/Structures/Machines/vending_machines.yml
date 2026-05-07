@@ -443,7 +443,7 @@
   - type: DatasetVocalizer
     dataset: NfsdDrobeAds
   - type: Sprite
-    sprite: _WF/Structures/Machines/VendingMachines/nfsdTech.rsi # Wayfarer: _NF/Structures/Machines/VendingMachines/NfsdTech.rsi < _WF/Structures/Machines/VendingMachines/NfsdTech.rsi
+    sprite: _WF/Structures/Machines/VendingMachines/nfsdtech.rsi # Wayfarer: _NF/Structures/Machines/VendingMachines/NfsdTech.rsi < _WF/Structures/Machines/VendingMachines/NfsdTech.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
