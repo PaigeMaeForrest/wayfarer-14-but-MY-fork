@@ -47,10 +47,10 @@
   name: CGP magboots
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
+    sprite: _WF/Clothing/Shoes/Boots/magboots-nfsd.rsi # Wayfarer: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi _WF/Clothing/Shoes/Boots/magboots-nfsd.rsi
     state: icon
   - type: Clothing
-    sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
+    sprite: _WF/Clothing/Shoes/Boots/magboots-nfsd.rsi # Wayfarer: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi _WF/Clothing/Shoes/Boots/magboots-nfsd.rsi
   - type: Magboots
     magbootsAlert: MagbootsNfsd
   - type: ClothingSpeedModifier
