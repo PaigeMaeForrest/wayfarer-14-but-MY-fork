@@ -33,9 +33,9 @@
   description: Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Eyes/Glasses/nfsd_glasses.rsi
+    sprite: _WF/Clothing/Eyes/Glasses/CGP_glasses.rsi # Wayfarer: _NF/Clothing/Eyes/Glasses/nfsd_glasses.rsi < _WF/Clothing/Eyes/Glasses/CGP_glasses.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Eyes/Glasses/nfsd_glasses.rsi
+    sprite: _WF/Clothing/Eyes/Glasses/CGP_glasses.rsi # Wayfarer: _NF/Clothing/Eyes/Glasses/nfsd_glasses.rsi < _WF/Clothing/Eyes/Glasses/CGP_glasses.rsi
 
 - type: entity
   parent: [ClothingEyesGlassesMeson, BaseCommandContraband]

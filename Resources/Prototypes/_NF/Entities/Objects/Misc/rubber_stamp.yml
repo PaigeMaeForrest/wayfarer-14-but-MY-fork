@@ -37,7 +37,7 @@
     stampState: "paper_stamp-nf-sheriff"
     protected: True
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: _WF/Objects/Misc/stamps.rsi # Wayfarer: _NF/Objects/Misc/stamps.rsi < _WF/Objects/Misc/stamps.rsi
     state: stamp-sheriff
 
 - type: entity
@@ -105,7 +105,7 @@
     stampedColor: "#51703b"
     stampState: "paper_stamp-nf-bailiff"
   - type: Sprite
-    sprite: _NF/Objects/Misc/stamps.rsi
+    sprite: _WF/Objects/Misc/stamps.rsi # Wayfarer: _NF/Objects/Misc/stamps.rsi < _WF/Objects/Misc/stamps.rsi
     state: stamp-bailiff
 
 - type: entity

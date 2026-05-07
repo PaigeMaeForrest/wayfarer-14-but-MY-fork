@@ -20,9 +20,9 @@
   description: An CGP issued helmet to protect your head.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Head/Helmets/nfsd.rsi
+    sprite: _WF/Clothing/Head/Helmets/CGP.rsi # Wayfarer: _NF/Clothing/Head/Helmets/nfsd.rsi < _WF/Clothing/Head/Helmets/CGP.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Head/Helmets/nfsd.rsi
+    sprite: _WF/Clothing/Head/Helmets/CGP.rsi # Wayfarer: _NF/Clothing/Head/Helmets/nfsd.rsi < _WF/Clothing/Head/Helmets/CGP.rsi
 
 #Mercenary Helmet
 - type: entity

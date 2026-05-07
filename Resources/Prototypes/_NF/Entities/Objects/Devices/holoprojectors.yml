@@ -5,10 +5,10 @@
   description: Creates a solid but fragile holographic barrier.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: _WF/Objects/Devices/Holoprojectors/nfsd.rsi # Wayfarer: _NF/Objects/Devices/Holoprojectors/nfsd.rsi < _WF/Objects/Devices/Holoprojectors/nfsd.rsi
     state: icon
   - type: Item
-    sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi
+    sprite: _WF/Objects/Devices/Holoprojectors/nfsd.rsi # Wayfarer: _NF/Objects/Devices/Holoprojectors/nfsd.rsi < _WF/Objects/Devices/Holoprojectors/nfsd.rsi
   - type: HolosignProjector
     signProto: HolosignNfsd
 

@@ -43,9 +43,9 @@
   description: Shootouts with nukies are just another Tuesday for this Commodore. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
+    sprite: _WF/Clothing/Neck/Mantles/CGPsheriff.rsi # Wayfarer: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi < _WF/Clothing/Neck/Mantles/CGPsheriff.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi
+    sprite: _WF/Clothing/Neck/Mantles/CGPsheriff.rsi # Wayfarer: _NF/Clothing/Neck/Mantles/nfsdsheriff.rsi < _WF/Clothing/Neck/Mantles/CGPsheriff.rsi
 
 - type: entity
   parent: ClothingNeckMantleHOP

@@ -217,7 +217,7 @@
     baseWalkSpeed: 4.3
     baseSprintSpeed: 8
   - type: Sprite
-    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    sprite: _WF/Objects/Vehicles/hoverbike.rsi # Wayfarer: _NF/Objects/Vehicles/hoverbike.rsi < _WF/Objects/Vehicles/hoverbike.rsi
     layers:
     - state: hull
       map: [ "enum.DamageStateVisualLayers.Base" ]

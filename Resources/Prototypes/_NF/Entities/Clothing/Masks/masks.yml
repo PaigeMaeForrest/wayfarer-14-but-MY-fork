@@ -49,9 +49,9 @@
   description: A standard issue CGP gas mask.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Mask/nfsd.rsi
+    sprite: _WF/Clothing/Mask/CGP.rsi # Wayfarer: _NF/Clothing/Mask/nfsd.rsi < _WF/Clothing/Mask/CGP.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Mask/nfsd.rsi
+    sprite: _WF/Clothing/Mask/CGP.rsi # Wayfarer: _NF/Clothing/Mask/nfsd.rsi < _WF/Clothing/Mask/CGP.rsi
   - type: CatWearable
 
 - type: entity
@@ -61,9 +61,9 @@
   description: A gas mask worthy of a commodore.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi
+    sprite: _WF/Clothing/Mask/CGP_sheriff.rsi # Wayfarer: _NF/Clothing/Mask/nfsd_sheriff.rsi < _WF/Clothing/Mask/CGP_sheriff.rsi
   - type: Clothing
-    sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi
+    sprite: _WF/Clothing/Mask/CGP_sheriff.rsi # Wayfarer: _NF/Clothing/Mask/nfsd_sheriff.rsi < _WF/Clothing/Mask/CGP_sheriff.rsi
 
 - type: entity
   parent: [ BaseC3CultContrabandUnredeemable, ContrabandClothing, ClothingMaskGasExplorer ]

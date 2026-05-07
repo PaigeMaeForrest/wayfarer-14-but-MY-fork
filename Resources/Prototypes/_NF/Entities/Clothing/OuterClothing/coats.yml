@@ -62,9 +62,9 @@
   description: Lookin' slick Tom.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_bomber.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi < _WF/Clothing/OuterClothing/Misc/CGP_bomber.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_bomber.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_bomber.rsi < _WF/Clothing/OuterClothing/Misc/CGP_bomber.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -73,9 +73,9 @@
   description: Blood may stain.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_brigmed_bomber.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi < _WF/Clothing/OuterClothing/Misc/CGP_brigmed_bomber.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_brigmed_bomber.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_brigmed_bomber.rsi < _WF/Clothing/OuterClothing/Misc/CGP_brigmed_bomber.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -84,9 +84,9 @@
   description: Snazzy.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_formal.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi < _WF/Clothing/OuterClothing/Misc/CGP_formal.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_formal.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_formal.rsi < _WF/Clothing/OuterClothing/Misc/CGP_formal.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -95,9 +95,9 @@
   description: Very snazzy.
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_sheriff_formal.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi < _WF/Clothing/OuterClothing/Misc/CGP_sheriff_formal.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_sheriff_formal.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_sheriff_formal.rsi < _WF/Clothing/OuterClothing/Misc/CGP_sheriff_formal.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]
@@ -106,9 +106,9 @@
   description: Big iron on his hip...
   components:
   - type: Sprite
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_long.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi < _WF/Clothing/OuterClothing/Misc/CGP_long.rsi
   - type: Clothing
-    sprite: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi
+    sprite: _WF/Clothing/OuterClothing/Misc/CGP_long.rsi # Wayfarer: _NF/Clothing/OuterClothing/Misc/nfsd_long.rsi < _WF/Clothing/OuterClothing/Misc/CGP_long.rsi
 
 - type: entity
   parent: [ ClothingOuterStorageBase, BaseC2ContrabandUnredeemable ]

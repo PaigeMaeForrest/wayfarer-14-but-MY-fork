@@ -265,7 +265,7 @@
   description: Prints equipment for use by CGP.
   components:
   - type: Sprite
-    sprite: _NF/Structures/Machines/techfab.rsi
+    sprite: _WF/Structures/Machines/techfab.rsi # Frontier: _NF/Structures/Machines/techfab.rsi < _WF/Structures/Machines/techfab.rsi
     snapCardinals: true
     layers:
     - state: icon
