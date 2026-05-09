@@ -35,6 +35,7 @@
   - WeaponCaseLong
   - WeaponCaseHeavy
   - WeaponCaseShortAmmo
+  - WeaponCaseHeavyAmmo # Coyote
   - WeaponCaseShortExplosives
 
 - type: latheRecipePack
@@ -111,6 +112,9 @@
   - ClothingEyesHudBountyHunter
   - BolaNF
   - NFHandcuffs
+  # Monolith
+  - ArmorPlateLight
+  - ArmorPlateSteel
 
 - type: latheRecipePack
   id: NFMercenaryArchetypeMeleeStatic

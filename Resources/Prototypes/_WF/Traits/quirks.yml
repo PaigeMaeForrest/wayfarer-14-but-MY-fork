@@ -10,3 +10,29 @@
     - type: AutoEmote
       emotes:
       - ClownGiggle
+
+- type: trait
+  id: Carnivore
+  name: trait-carnivore-name
+  description: trait-carnivore-desc
+  category: Digestions
+  cost: 1
+  components:
+    - type: Carnivore
+
+- type: trait
+  id: Herbivore
+  name: trait-herbivore-name
+  description: trait-herbivore-desc
+  category: Digestions
+  cost: 1
+  components:
+    - type: Herbivore
+
+- type: trait
+  id: ClayBody
+  name: trait-claybody-name
+  description: trait-claybody-desc
+  category: Quirks
+  components:
+    - type: WFClayBody

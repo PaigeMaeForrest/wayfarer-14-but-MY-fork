@@ -414,6 +414,15 @@
   equipment:
     head: FoodAmbrosiaVulgaris
 
+- type: loadout
+  id: WFClothingHeadHatDruid
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: NFHeadwearCapable
+  price: 500
+  equipment:
+    head: ClothingHeadHatDruid
+
 #T2
 - type: loadout
   id: WFClothingHeadHatCaptain
@@ -786,6 +795,18 @@
   price: 1250
   equipment:
     head: ClothingHeadHatWitchhunter
+
+- type: loadout
+  id: WFClothingHeadHatWitch1
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WFT2
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: NFHeadwearCapable
+  price: 1250
+  equipment:
+    head: ClothingHeadHatWitch1
 
 - type: loadout
   id: WFClothingHeadHatBishopMitre

@@ -794,14 +794,14 @@
 
 - type: loadout
   id: WFClothingUniformJumpsuitParamedic
-  price: 500
+  price: 0
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
   groupBy: "jumpsuitMedical"
 
 - type: loadout
   id: WFClothingUniformJumpskirtParamedic
-  price: 500
+  price: 0
   equipment:
     jumpsuit: ClothingUniformJumpskirtParamedic
   groupBy: "jumpsuitMedical"
@@ -1610,6 +1610,15 @@
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtPerformer
+
+- type: loadout
+  id: WFClothingUniformSkirtDruid
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: WFT2
+  price: 1000
+  equipment:
+    jumpsuit: ClothingUniformSkirtDruid
 
 - type: loadout
   id: WFClothingUniformJumpsuitSafari
