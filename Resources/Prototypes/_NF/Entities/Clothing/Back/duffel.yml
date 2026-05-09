@@ -13,14 +13,14 @@
   name: CGP duffel
   components:
   - type: Sprite
-    sprite: _WF/Clothing/Back/Duffels/CGP_brown.rsi # Wayfarer: _NF/Clothing/Back/Duffels/nfsd_brown.rsi> _WF/Clothing/Back/Duffels/CGP_brown.rsi
+    sprite: _WF/Clothing/Back/Duffels/CGP_brown.rsi # Wayfarer: _NF/Clothing/Back/Duffels/nfsd_brown.rsi < _WF/Clothing/Back/Duffels/CGP_brown.rsi
 
 - type: entity
   parent: ClothingBackpackDuffelNfsdBrown
   id: ClothingBackpackDuffelNfsdCream
   components:
   - type: Sprite
-    sprite: _WF/Clothing/Back/Duffels/CGP_cream.rsi # Wayfarer: _NF/Clothing/Back/Duffels/nfsd_brown.rsi> _WF/Clothing/Back/Duffels/CGP_cream.rsi 
+    sprite: _WF/Clothing/Back/Duffels/CGP_cream.rsi # Wayfarer: _NF/Clothing/Back/Duffels/nfsd_brown.rsi < _WF/Clothing/Back/Duffels/CGP_cream.rsi
 
 - type: entity
   parent: [ RecyclableItemPlasticSmall, NFClothingDuffel ]

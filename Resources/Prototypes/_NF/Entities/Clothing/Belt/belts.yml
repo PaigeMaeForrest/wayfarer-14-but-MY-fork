@@ -80,9 +80,9 @@
   description: A tactical assault belt.
   components:
   - type: Sprite
-    sprite: _WF/Clothing/Belt/CGP_belt.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_belt.rsi > _WF/Clothing/Belt/CGP_belt.rsi
+    sprite: _WF/Clothing/Belt/CGP_belt.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_belt.rsi<_WF/Clothing/Belt/CGP_belt.rsi
   - type: Clothing
-    sprite: _WF/Clothing/Belt/CGP_belt.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_belt.rsi > _WF/Clothing/Belt/CGP_belt.rsi
+    sprite: _WF/Clothing/Belt/CGP_belt.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_belt.rsi<_WF/Clothing/Belt/CGP_belt.rsi
 
 - type: entity
   parent: [ BaseC2ContrabandUnredeemable, ClothingBeltSecurityWebbing ]
@@ -91,9 +91,9 @@
   description: A tactical assault webbing.
   components:
   - type: Sprite
-    sprite: _WF/Clothing/Belt/CGP_webbing.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_webbing.rsi > _WF/Clothing/Belt/CGP_webbing.rsi
+    sprite: _WF/Clothing/Belt/CGP_webbing.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_webbing.rsi<_WF/Clothing/Belt/CGP_webbing.rsi
   - type: Clothing
-    sprite: _WF/Clothing/Belt/CGP_webbing.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_webbing.rsi > _WF/Clothing/Belt/CGP_webbing.rsi
+    sprite: _WF/Clothing/Belt/CGP_webbing.rsi # Wayfarer: _NF/Clothing/Belt/nfsd_webbing.rsi<_WF/Clothing/Belt/CGP_webbing.rsi
   - type: CatWearable
 
 # Ported from Nyano
