@@ -22,7 +22,7 @@
   - type: Clothing
     sprite: _NF/Clothing/Hands/Gloves/pilot.rsi
   - type: Fiber
-    fiberColor: fibers-brown
+    fiberColor: fibers-brown # Wayfarer: fibers-cream<fibers-black
 
 - type: entity
   parent: ClothingHandsGlovesCombat
@@ -48,7 +48,7 @@
   - type: Clothing
     sprite: _WF/Clothing/Hands/Gloves/CGP_cream.rsi # Wayfarer: _NF/Clothing/Hands/Gloves/nfsd_cream.rsi < _WF/Clothing/Hands/Gloves/CGP_cream.rsi
   - type: Fiber
-    fiberColor: fibers-grey
+    fiberColor: fibers-grey # Wayfarer: fibers-cream<fibers-grey
 
 - type: entity
   parent: ClothingHandsGlovesHop

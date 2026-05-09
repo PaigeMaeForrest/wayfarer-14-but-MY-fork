@@ -804,8 +804,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasen
-  name: deep blue jumpsuit # wayfarer: removed nanotrasen
-  description: A stately blue jumpsuit. # wayfarer: removed nanotrasen
+  name: deep blue jumpsuit # Wayfarer: removed nanotrasen
+  description: A stately blue jumpsuit. # Wayfarer: removed nanotrasen
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
